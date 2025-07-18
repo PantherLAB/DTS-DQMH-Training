@@ -20,11 +20,15 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Draw FP in Subpanel Argument--cluster.ctl" Type="VI" URL="../Draw FP in Subpanel Argument--cluster.ctl"/>
 				<Item Name="Remove From Subpanel Argument--cluster.ctl" Type="VI" URL="../Remove From Subpanel Argument--cluster.ctl"/>
+				<Item Name="Incrementar Credito Argument--cluster.ctl" Type="VI" URL="../Incrementar Credito Argument--cluster.ctl"/>
+				<Item Name="Cancelar Argument--cluster.ctl" Type="VI" URL="../Cancelar Argument--cluster.ctl"/>
+				<Item Name="Entregar Cambio Argument--cluster.ctl" Type="VI" URL="../Entregar Cambio Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Credito Actualizado Argument--cluster.ctl" Type="VI" URL="../Credito Actualizado Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -35,6 +39,9 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Draw FP in Subpanel.vi" Type="VI" URL="../Draw FP in Subpanel.vi"/>
 			<Item Name="Remove From Subpanel.vi" Type="VI" URL="../Remove From Subpanel.vi"/>
+			<Item Name="Incrementar Credito.vi" Type="VI" URL="../Incrementar Credito.vi"/>
+			<Item Name="Cancelar.vi" Type="VI" URL="../Cancelar.vi"/>
+			<Item Name="Entregar Cambio.vi" Type="VI" URL="../Entregar Cambio.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -52,6 +59,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Credito Actualizado.vi" Type="VI" URL="../Credito Actualizado.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

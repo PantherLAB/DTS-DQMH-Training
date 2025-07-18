@@ -20,11 +20,13 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Draw FP in Subpanel Argument--cluster.ctl" Type="VI" URL="../Draw FP in Subpanel Argument--cluster.ctl"/>
 				<Item Name="Remove From Subpanel Argument--cluster.ctl" Type="VI" URL="../Remove From Subpanel Argument--cluster.ctl"/>
+				<Item Name="Vender Producto Argument--cluster.ctl" Type="VI" URL="../Vender Producto Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Producto Seleccionado Argument--cluster.ctl" Type="VI" URL="../Producto Seleccionado Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -35,6 +37,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Draw FP in Subpanel.vi" Type="VI" URL="../Draw FP in Subpanel.vi"/>
 			<Item Name="Remove From Subpanel.vi" Type="VI" URL="../Remove From Subpanel.vi"/>
+			<Item Name="Vender Producto.vi" Type="VI" URL="../Vender Producto.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -52,6 +55,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Producto Seleccionado.vi" Type="VI" URL="../Producto Seleccionado.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -63,6 +67,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Constants" Type="Folder">
+			<Item Name="Inventario Path--constant.vi" Type="VI" URL="../Inventario Path--constant.vi"/>
 			<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 			<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		</Item>
@@ -97,7 +102,11 @@
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
+	<Item Name="Inventario" Type="Folder">
+		<Item Name="Lectura Inventario.vi" Type="VI" URL="../Lectura Inventario.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Venta Producto.vi" Type="VI" URL="../Venta Producto.vi"/>
 </Library>
