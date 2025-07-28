@@ -137,7 +137,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Launcher Support.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{72B8A1B5-D9B9-412F-9B53-FD213046C751}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VendingMachine.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Vending Machine/VendingMachine.exe</Property>
@@ -147,7 +147,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Vending Machine/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D3F738DE-DCE1-44A1-B8E2-29D43D0F8D4F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BD7DD2F9-6A4F-4EE0-B3EC-2836E29FFB7E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher Main.vi</Property>
